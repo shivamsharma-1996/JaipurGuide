@@ -6,4 +6,4 @@ Plastore Link - https://play.google.com/store/apps/details?id=com.shivam.jaipurg
 
 - It enables to you get:-
   "Route", "Distance" and "Duration"
-  betweeen "Tourist Place" & "Railway Station/Bus Stand/Airport".
+  from Tourist Place to  Railway Station/Bus Stand/Airport.
