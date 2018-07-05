@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_marginTop="-100dp"
+        android:layout_marginBottom="-100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rg_modes"/>
+
+    <RadioGroup
+        android:id="@+id/rg_modes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:orientation="horizontal"
+       android:background="#e0e0e0" >
+
+        <RadioButton android:id="@+id/railwayStation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Railway Station"
+            android:checked="true"
+            android:layout_weight=".3"/>
+
+        <RadioButton android:id="@+id/busStand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus Stand"
+            android:layout_weight=".3"/>
+
+        <RadioButton android:id="@+id/airport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Airport"
+            android:layout_weight=".3"/>
+
+    </RadioGroup>
+
+
+
+
+</RelativeLayout>
